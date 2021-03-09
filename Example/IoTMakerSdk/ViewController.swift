@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import IoTMakerSdk
 
 class ViewController: UIViewController {
 

@@ -1,16 +1,23 @@
 PODS:
-  - IoTMakerSdk (0.1.0)
+  - Alamofire (4.9.1)
+  - IoTMakerSdk (0.1.0):
+    - Alamofire (~> 4.9)
 
 DEPENDENCIES:
   - IoTMakerSdk (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
 
 EXTERNAL SOURCES:
   IoTMakerSdk:
     :path: "../"
 
 SPEC CHECKSUMS:
-  IoTMakerSdk: cc9021f4fc1e1639392141b44e46607671d3e5fe
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  IoTMakerSdk: 661db93db87f528a031619494d704586f33aa078
 
-PODFILE CHECKSUM: d1f5e6c9ed31afa8980873bd4a96efadd5529d62
+PODFILE CHECKSUM: 434a659d487242ccb9e5a269c82421f2211b5f9d
 
 COCOAPODS: 1.10.1

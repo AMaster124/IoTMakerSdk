@@ -1,8 +1,7 @@
 {
   "name": "IoTMakerSdk",
   "version": "0.1.0",
-  "summary": "A short description of IoTMakerSdk.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "IoTMakerSdk is a library to support iOS app that manages IoT devices.",
   "homepage": "https://github.com/AMaster124/IoTMakerSdk",
   "license": {
     "type": "MIT",
@@ -15,8 +14,15 @@
     "git": "https://github.com/AMaster124/IoTMakerSdk.git",
     "tag": "0.1.0"
   },
+  "swift_versions": "5.0",
   "platforms": {
-    "ios": "9.0"
+    "ios": "11.0"
   },
-  "source_files": "IoTMakerSdk/Classes/**/*"
+  "source_files": "IoTMakerSdk/Classes/**/*",
+  "dependencies": {
+    "Alamofire": [
+      "~> 4.9"
+    ]
+  },
+  "swift_version": "5.0"
 }
