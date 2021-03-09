@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'IoTMakerSdk_Example' do
+  pod 'IoTMakerSdk', :path => '../'
+
+  target 'IoTMakerSdk_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

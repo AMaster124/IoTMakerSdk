@@ -1,0 +1,6 @@
+framework module IoTMakerSdk {
+  umbrella header "IoTMakerSdk-umbrella.h"
+
+  export *
+  module * { export * }
+}

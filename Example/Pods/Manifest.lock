@@ -1,0 +1,16 @@
+PODS:
+  - IoTMakerSdk (0.1.0)
+
+DEPENDENCIES:
+  - IoTMakerSdk (from `../`)
+
+EXTERNAL SOURCES:
+  IoTMakerSdk:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  IoTMakerSdk: cc9021f4fc1e1639392141b44e46607671d3e5fe
+
+PODFILE CHECKSUM: d1f5e6c9ed31afa8980873bd4a96efadd5529d62
+
+COCOAPODS: 1.10.1

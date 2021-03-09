@@ -1,0 +1,6 @@
+framework module Pods_IoTMakerSdk_Example {
+  umbrella header "Pods-IoTMakerSdk_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
