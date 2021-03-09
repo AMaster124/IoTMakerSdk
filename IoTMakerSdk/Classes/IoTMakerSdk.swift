@@ -6,14 +6,15 @@
 //
 
 import Foundation
+import Alamofire
 
-class IoTMakerSdk: NSObject {
-    static let shared: IoTMakerSdk = {
-        let value = IoTMakerSdk()
-        return value
-    }()
+public class IoTMakerSdk: NSObject {
+//    static let shared: IoTMakerSdk = {
+//        let value = IoTMakerSdk()
+//        return value
+//    }()
     
-    static func configure(isPublic: Bool = true, apiUrl: String? = nil) {
+    public static func configure(isPublic: Bool = true, apiUrl: String? = nil) {
         Constants.TEST_MODE = !isPublic
         if let apiUrl = apiUrl {
             Constants.BASE_URL = apiUrl
@@ -22,38 +23,32 @@ class IoTMakerSdk: NSObject {
         }
     }
     
-    static func gigaIotOAuth( username: String, password: String, completion: @escaping ([String: Any])->Void) {
-        let url = URL(string: Constants.BASE_URL + "/oauth/token")!
-        var request = URLRequest(url: url)
-        
-        request.httpMethod = "POST"
-        request.httpBody = "username=\(username)&password=\(password)".data(using: .utf8)
-        
+    public static func gigaIotOAuth( username: String, password: String, completion: @escaping ([String: Any]?, String?)->Void) {
         guard let data = ("\(Constants.CLIENT_ID):\(Constants.CLIENT_SECRET)").data(using: .utf8) else {
             return
         }
         
         let authString = "Basic " + data.base64EncodedString(options: Data.Base64EncodingOptions(rawValue: 0))
+        let header = [
+            "Authorization": authString
+        ]
         
-        request.addValue(authString, forHTTPHeaderField: "Authorization")
+        let params = [
+            "username": username,
+            "password": password,
+            "grant_type": password == "" ? "client_credentials" : "password"
+        ]
         
-        let task = URLSession.shared.dataTask(with: request) { (data, response, error) in
-            if let e = error {
-                NSLog("An error has occured: \(e.localizedDescription)")
-                return
-            }
+        print(params)
+
+        Alamofire.request(Constants.BASE_URL + "/oauth/token", method: .post, parameters: params, encoding: JSONEncoding.default, headers: header).responseJSON { response in
             
-            do {
-                if let object = try JSONSerialization.jsonObject(with: data!, options: []) as? [String: Any] {
-                    print(object)
-                    completion(object)
-                }
-            } catch let e as NSError {
-                print("An error has occured while parsing JSONObject: \(e.localizedDescription)")
+            if let error = response.error {
+                completion(nil, error.localizedDescription)
+            } else {
+                completion(response.result.value as? [String: Any], nil)
             }
-            
-        } 
-        
-        task.resume()
+        }
+
     }
 }

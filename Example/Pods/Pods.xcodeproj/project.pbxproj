@@ -7,130 +7,132 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0071A01687A661B8A66FEB1B917E5CCF /* IoTMakerSdk-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5463B2315D0BD5B639F458C26ABE6B5 /* IoTMakerSdk-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0A21F02C613C4B3854CCDC3DB996D0C2 /* Pods-IoTMakerSdk_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF4917938964AB68385BB7EC3A2AD53 /* Pods-IoTMakerSdk_Tests-dummy.m */; };
 		0B9D0BD0BD8A7228F9C1CD4712158A1C /* Pods-IoTMakerSdk_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE65FB71EB5AC8C31C8F58E70FFB2B1E /* Pods-IoTMakerSdk_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0C5E11DE24DAA737704B355F5F2F3426 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D01BA8472F25D39F718F71557EDC8DD /* ParameterEncoding.swift */; };
-		132E0F619E4338E5D1B27E4C72076B3F /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06639F7A76DB8A9D0D0E41CDD7A6684 /* Notifications.swift */; };
-		183D128825F7CC8900139C8F /* IoTMakerSdk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183D128625F7CC8800139C8F /* IoTMakerSdk.swift */; };
-		183D128925F7CC8900139C8F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183D128725F7CC8800139C8F /* Constants.swift */; };
-		1945CD5D63A1C164AEAAA9A33E85571E /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B913782641ED6BF1137F1E6D893BE5DF /* Alamofire-dummy.m */; };
-		1986B50C74F1697EA43F68335C93CEB3 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCE3D7EDCA41F256D471B40BBFD3FCE /* MultipartFormData.swift */; };
-		2C61B040BA6A9A7AE66C4D9BA26D5520 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F640F61D5BEE8132009BAEAA65B587A4 /* SessionDelegate.swift */; };
-		3571F958A3907B3A806E62D50C2550D4 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5460AD0F6241621B45A17AB23A8E5B7 /* NetworkReachabilityManager.swift */; };
-		40F994F82DBF14345AD7308117F9C49F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA5E0849BDF30236C363A144A9DB5875 /* Foundation.framework */; };
+		0C5E11DE24DAA737704B355F5F2F3426 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D7A47A590ED08C21AB24503841C370 /* ParameterEncoding.swift */; };
+		132E0F619E4338E5D1B27E4C72076B3F /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86FC9B604FA843EF26A951C43C0CE8B /* Notifications.swift */; };
+		1945CD5D63A1C164AEAAA9A33E85571E /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0389D0AFC58E73A075F3F7740CE1D441 /* Alamofire-dummy.m */; };
+		1986B50C74F1697EA43F68335C93CEB3 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616062C81FDAB5C58156D8D00F0FC48D /* MultipartFormData.swift */; };
+		2C61B040BA6A9A7AE66C4D9BA26D5520 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFB0C226D602EC371BECC5BD2CC9370 /* SessionDelegate.swift */; };
+		3571F958A3907B3A806E62D50C2550D4 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C36DA43AFF8C1CD3C666DACA78B91C2 /* NetworkReachabilityManager.swift */; };
 		50013C33D35EBAF31ACF3A8B3A9A3FB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA5E0849BDF30236C363A144A9DB5875 /* Foundation.framework */; };
-		53791F5E5F07400F92CFDFC89A432305 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33115EC2A5164913C68F8BD170389EEE /* Validation.swift */; };
-		64744C911253C3E01461FAD7C935C8D7 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD807F155301ECA538A2C1C296E1186D /* Result.swift */; };
+		53791F5E5F07400F92CFDFC89A432305 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3AE0D4172A0ECD56EBFA08991A7C70 /* Validation.swift */; };
+		64744C911253C3E01461FAD7C935C8D7 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DA11279AA1D6557BB10C9936E9B3A3 /* Result.swift */; };
+		65B472B5702319C3E0C3DC0ABAF012B8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1133C98FFE948B9A85C6A822B351203F /* Constants.swift */; };
 		6906F22C69FAC00BEAB3DEF083880BB3 /* Pods-IoTMakerSdk_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A63894325167C5E67B5D8466BEAC3481 /* Pods-IoTMakerSdk_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		83956E20859CDBBE7BC38ABADE0170FB /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5A0E300C04A6DF88D620788FE38780 /* AFError.swift */; };
-		931BBB8230A25161D5C37528A8F9FECF /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7E25E371731FAE44F46A9F392CB5D5 /* SessionManager.swift */; };
-		933FDA5970AA525D6CB92BFEBA2BAB4A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DB5272AD01ECD0B09A86818A7754C4 /* Timeline.swift */; };
+		7BB08E267CBC9B12BA7CAD2D227E0438 /* IoTMakerSdk-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D02BD9AA9C2D84D15554D3084836DA41 /* IoTMakerSdk-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E47E88DC19EE7059E526A9B9DE29B15 /* IoTMakerSdk-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A35F30A67C5F8E70258E0F097105756E /* IoTMakerSdk-dummy.m */; };
+		83956E20859CDBBE7BC38ABADE0170FB /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63F367F44FC87833A1792B541781BB7 /* AFError.swift */; };
+		931BBB8230A25161D5C37528A8F9FECF /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D3F4F1011789493720361780A1982D /* SessionManager.swift */; };
+		933FDA5970AA525D6CB92BFEBA2BAB4A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ACD677FD4B95B260E1B1C656D08B84 /* Timeline.swift */; };
 		955BDA1F5663E6FC6B7D503B7FBF47AE /* Pods-IoTMakerSdk_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FEF8BA6451DB4F1537DC532D6FA1FD2 /* Pods-IoTMakerSdk_Example-dummy.m */; };
-		98A929C8E9012AB167672714FFD2113C /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D59E1AD3CC394A93392FF3DC8CF2961 /* Request.swift */; };
+		98A929C8E9012AB167672714FFD2113C /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE101F8BE2F43D16C24A9874C79A94A /* Request.swift */; };
 		A4EC9CBEE36126C1AAF06ADF68873FA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA5E0849BDF30236C363A144A9DB5875 /* Foundation.framework */; };
-		AFC64B1097F7355FF423D6A73E9C7210 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C759635F88377BD7E2DEDE04C23C62 /* TaskDelegate.swift */; };
+		AA3D9709ADF064C7D400B0C8307B460F /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B03B07DFA7C8BB60693AE1DE30731E2 /* Alamofire.framework */; };
+		AF99BDFE1BB86B0A3893DDE90456B736 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA5E0849BDF30236C363A144A9DB5875 /* Foundation.framework */; };
+		AFC64B1097F7355FF423D6A73E9C7210 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50DCBCED5F02570DDA9386825ACB4CF /* TaskDelegate.swift */; };
 		B4DE18CD89656557CE67346E9508A391 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA5E0849BDF30236C363A144A9DB5875 /* Foundation.framework */; };
-		BEE6B677416CA71C981D1D3F60B18C96 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C15C076B531E2E7744C358418A0C0B5 /* Alamofire.swift */; };
-		D3D8C379C6E4FB487E5ABD6800AD7B7E /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF7F7716086D54E6308EE52C8227B87 /* DispatchQueue+Alamofire.swift */; };
-		D3EC2725AB2AEFA08E5DF26D9AF0CD0F /* IoTMakerSdk-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C347F6EE65187102197F57664882AF /* IoTMakerSdk-dummy.m */; };
-		D65C254F5ABF2CB5ECEE50FE8F8E1A80 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC6858C85690F7AFEA7F6542EE9A69A /* Response.swift */; };
-		E3747EC31FCCA97D75A81FC700CF7E24 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B03859BDC36782899379E222720A297 /* ResponseSerialization.swift */; };
-		EFA01DC497A505C3F1DFC89C1192FF79 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B03B07DFA7C8BB60693AE1DE30731E2 /* Alamofire.framework */; };
-		F13F2AA7F2E6D95A181CAB99B900D531 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4453BE339B79900FDC53E34FE5589CB /* ServerTrustPolicy.swift */; };
-		F7B74645E07C39771156A1FA413B98D4 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C70D9E5408E6DB00FC6D07C959936AA4 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEE6B677416CA71C981D1D3F60B18C96 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FC5E8A366EFB3B0CF9816F6A90B258 /* Alamofire.swift */; };
+		D30B8A48ECE4AD7290612D42C311ACE2 /* IoTMakerSdk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2215336F65896BEF24B5BA28BF04947B /* IoTMakerSdk.swift */; };
+		D3D8C379C6E4FB487E5ABD6800AD7B7E /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D8FC88383C541917CFD5ADA31DD7AB /* DispatchQueue+Alamofire.swift */; };
+		D65C254F5ABF2CB5ECEE50FE8F8E1A80 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06A315E96FC5BCCAB1C5145D4BF1BCF /* Response.swift */; };
+		E3747EC31FCCA97D75A81FC700CF7E24 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF15E9B6C2601FD9AD228CA2D657E44B /* ResponseSerialization.swift */; };
+		F13F2AA7F2E6D95A181CAB99B900D531 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7B86CF47C1835EA00FE7A8B8D5CCC5 /* ServerTrustPolicy.swift */; };
+		F7B74645E07C39771156A1FA413B98D4 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FFE4C558583FF9884EBA9DDF1C6F0DCD /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0292A8922B2202940C8D5346D910EABD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
-			remoteInfo = Alamofire;
-		};
-		0C28DF3FCB5A7DA8FE3312F7957E3C4A /* PBXContainerItemProxy */ = {
+		279FF4B7E8A94AF6D0FECCFC60DC4F59 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C39D8A9E03627AB5E965A45F682079E7;
 			remoteInfo = "Pods-IoTMakerSdk_Example";
 		};
-		2BB37392D4BAB5BAD45200FAAA6FE5B8 /* PBXContainerItemProxy */ = {
+		AA9F5DA3CFAF9A37FAB13F9959225A12 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
 			remoteInfo = Alamofire;
 		};
-		BF77EC95201ADE74C8C6036AF4775240 /* PBXContainerItemProxy */ = {
+		B6591CC0DCFC49A9243696B1EE8C574D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 04F85A57986BF9571DF6D4EDE9975802;
 			remoteInfo = IoTMakerSdk;
 		};
+		BAA7A5E1F5395658D5AC613F4DD0CAF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
+			remoteInfo = Alamofire;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		09C347F6EE65187102197F57664882AF /* IoTMakerSdk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IoTMakerSdk-dummy.m"; sourceTree = "<group>"; };
+		0389D0AFC58E73A075F3F7740CE1D441 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
 		0A8B010192E0384F45FE82D23FE26580 /* Pods_IoTMakerSdk_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IoTMakerSdk_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0D01BA8472F25D39F718F71557EDC8DD /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		0C96CDEC4805F115B4225E4EBFC020B7 /* Alamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.release.xcconfig; sourceTree = "<group>"; };
 		0D3180E844D97A4E1FB580FE3947B3CC /* Pods-IoTMakerSdk_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IoTMakerSdk_Example-frameworks.sh"; sourceTree = "<group>"; };
-		183D128625F7CC8800139C8F /* IoTMakerSdk.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IoTMakerSdk.swift; path = IoTMakerSdk/Classes/IoTMakerSdk.swift; sourceTree = "<group>"; };
-		183D128725F7CC8800139C8F /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = IoTMakerSdk/Classes/Constants.swift; sourceTree = "<group>"; };
-		1C15C076B531E2E7744C358418A0C0B5 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
-		2A88F1CE3D1762C5FE42FD38F9257CA2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		1133C98FFE948B9A85C6A822B351203F /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = IoTMakerSdk/Classes/Constants.swift; sourceTree = "<group>"; };
+		11DB674AE44A647643C61955C10B4A25 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		13BECB99E2AB2090C13FA00E1ACB231F /* IoTMakerSdk-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IoTMakerSdk-prefix.pch"; sourceTree = "<group>"; };
+		2215336F65896BEF24B5BA28BF04947B /* IoTMakerSdk.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IoTMakerSdk.swift; path = IoTMakerSdk/Classes/IoTMakerSdk.swift; sourceTree = "<group>"; };
+		2B15502FC9C9F6C3BB76D22B4D687934 /* IoTMakerSdk.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = IoTMakerSdk.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2BDA0C59C609853E816EEF9C450B54BA /* Pods-IoTMakerSdk_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IoTMakerSdk_Tests-Info.plist"; sourceTree = "<group>"; };
+		2C50F83F93296D01A5B9009365A2671D /* Alamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.debug.xcconfig; sourceTree = "<group>"; };
+		2EE101F8BE2F43D16C24A9874C79A94A /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
 		2FEF8BA6451DB4F1537DC532D6FA1FD2 /* Pods-IoTMakerSdk_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IoTMakerSdk_Example-dummy.m"; sourceTree = "<group>"; };
-		31D9E74552BD48410427400C28E2346A /* IoTMakerSdk.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = IoTMakerSdk.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		32DB5272AD01ECD0B09A86818A7754C4 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
-		33115EC2A5164913C68F8BD170389EEE /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
 		3583B4A6325AB48E6A91231164AF732D /* Pods-IoTMakerSdk_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IoTMakerSdk_Example-Info.plist"; sourceTree = "<group>"; };
-		3C4603DBC98157F1F41223CB3D5B1F7F /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
-		3D7E25E371731FAE44F46A9F392CB5D5 /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
+		3D7B86CF47C1835EA00FE7A8B8D5CCC5 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		3EFB0C226D602EC371BECC5BD2CC9370 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
 		44652ADC2B9E5495F202331C70EDC515 /* Pods-IoTMakerSdk_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IoTMakerSdk_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		47D8FC88383C541917CFD5ADA31DD7AB /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
 		4B03B07DFA7C8BB60693AE1DE30731E2 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4C7821F168145E7805DA755D21E22E77 /* Alamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.debug.xcconfig; sourceTree = "<group>"; };
+		58ACD677FD4B95B260E1B1C656D08B84 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
 		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5ED0D9EE3A653A4ADDFDC17CFD6276F0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5ED047C2109FD8C989F0D93F032AAA29 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		5FEB2726D8D5B1A0A657204329BCF4BD /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		60B04956D47CB03F4D157B0403FB2E04 /* IoTMakerSdk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IoTMakerSdk.debug.xcconfig; sourceTree = "<group>"; };
+		616062C81FDAB5C58156D8D00F0FC48D /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
 		647A65AC49FB4FE0A4F85F7E1D30CB5A /* Pods-IoTMakerSdk_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IoTMakerSdk_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6BF4917938964AB68385BB7EC3A2AD53 /* Pods-IoTMakerSdk_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IoTMakerSdk_Tests-dummy.m"; sourceTree = "<group>"; };
-		6F6FEBFE9E0DD37630E1D07EE8345D2E /* Alamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.release.xcconfig; sourceTree = "<group>"; };
 		72F1EED1A356DDCE4753264375E99137 /* Pods-IoTMakerSdk_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IoTMakerSdk_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		75C759635F88377BD7E2DEDE04C23C62 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
 		779732F53F89A16A2D64431BDF27FE51 /* Pods-IoTMakerSdk_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IoTMakerSdk_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		7B03859BDC36782899379E222720A297 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		7C36DA43AFF8C1CD3C666DACA78B91C2 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		85FC5E8A366EFB3B0CF9816F6A90B258 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
 		86D9EB3C40D652DF61AAD339E878B1D0 /* IoTMakerSdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IoTMakerSdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8A27989C220A5A0714CA25C1F9B00CB9 /* IoTMakerSdk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IoTMakerSdk.debug.xcconfig; sourceTree = "<group>"; };
-		8D5A0E300C04A6DF88D620788FE38780 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
 		908FA22E573617E927A376695745458D /* Pods-IoTMakerSdk_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IoTMakerSdk_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9D59E1AD3CC394A93392FF3DC8CF2961 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		98D3F4F1011789493720361780A1982D /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A31DDF318E3E03B4DEA2F1B4182A555D /* Alamofire-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Alamofire-Info.plist"; sourceTree = "<group>"; };
+		A35F30A67C5F8E70258E0F097105756E /* IoTMakerSdk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IoTMakerSdk-dummy.m"; sourceTree = "<group>"; };
+		A50DCBCED5F02570DDA9386825ACB4CF /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
 		A63894325167C5E67B5D8466BEAC3481 /* Pods-IoTMakerSdk_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IoTMakerSdk_Example-umbrella.h"; sourceTree = "<group>"; };
 		AE65FB71EB5AC8C31C8F58E70FFB2B1E /* Pods-IoTMakerSdk_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IoTMakerSdk_Tests-umbrella.h"; sourceTree = "<group>"; };
-		AFF7F7716086D54E6308EE52C8227B87 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
-		B06639F7A76DB8A9D0D0E41CDD7A6684 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		AF15E9B6C2601FD9AD228CA2D657E44B /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		AF49197E4BE9C5214D3C174F77041CE6 /* IoTMakerSdk-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "IoTMakerSdk-Info.plist"; sourceTree = "<group>"; };
+		B06A315E96FC5BCCAB1C5145D4BF1BCF /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		B422EE1E54B1935CBCD5A7395DD242DB /* IoTMakerSdk.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IoTMakerSdk.modulemap; sourceTree = "<group>"; };
 		B51027B659077087610DDF26E9A3B585 /* Pods-IoTMakerSdk_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IoTMakerSdk_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B7FF71CB8495DA7D6D484A8585D455D3 /* Pods-IoTMakerSdk_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IoTMakerSdk_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B913782641ED6BF1137F1E6D893BE5DF /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
-		B9223CDD39F2A5421F2D1775CAFB305E /* IoTMakerSdk-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IoTMakerSdk-prefix.pch"; sourceTree = "<group>"; };
-		BFCE3D7EDCA41F256D471B40BBFD3FCE /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
-		C4453BE339B79900FDC53E34FE5589CB /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
-		C5463B2315D0BD5B639F458C26ABE6B5 /* IoTMakerSdk-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IoTMakerSdk-umbrella.h"; sourceTree = "<group>"; };
-		C70D9E5408E6DB00FC6D07C959936AA4 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		B86FC9B604FA843EF26A951C43C0CE8B /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
 		CA5E0849BDF30236C363A144A9DB5875 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CCC6858C85690F7AFEA7F6542EE9A69A /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		D02BD9AA9C2D84D15554D3084836DA41 /* IoTMakerSdk-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IoTMakerSdk-umbrella.h"; sourceTree = "<group>"; };
 		D107AC9613AE4DBE616E05547949EB94 /* Pods-IoTMakerSdk_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IoTMakerSdk_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		D64B3B6FF66163D677C9D5F69FAA23E6 /* Pods-IoTMakerSdk_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-IoTMakerSdk_Example.modulemap"; sourceTree = "<group>"; };
-		DD807F155301ECA538A2C1C296E1186D /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		DBF26C844B7C3BD178C92AC795DC00DA /* IoTMakerSdk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IoTMakerSdk.release.xcconfig; sourceTree = "<group>"; };
+		DE61F113413988A07963D3B6DE6C8D47 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		DF3AE0D4172A0ECD56EBFA08991A7C70 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		E63F367F44FC87833A1792B541781BB7 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
 		E6531D59280729FE8BDEC4C026AF0F72 /* Pods_IoTMakerSdk_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IoTMakerSdk_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EB27A2E77D4BF8026A0521ACE7CAA134 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
-		EF09D7A60A1AC517F5C1828ADFCC9709 /* IoTMakerSdk.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IoTMakerSdk.modulemap; sourceTree = "<group>"; };
+		F1DA11279AA1D6557BB10C9936E9B3A3 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
 		F21BF174046BF453AF6CA34643487C54 /* Pods-IoTMakerSdk_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-IoTMakerSdk_Tests.modulemap"; sourceTree = "<group>"; };
-		F5460AD0F6241621B45A17AB23A8E5B7 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
-		F640F61D5BEE8132009BAEAA65B587A4 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
-		FAB170F8BA682AB8F1354C3696A271C8 /* IoTMakerSdk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IoTMakerSdk.release.xcconfig; sourceTree = "<group>"; };
+		F8D7A47A590ED08C21AB24503841C370 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		FFE4C558583FF9884EBA9DDF1C6F0DCD /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				50013C33D35EBAF31ACF3A8B3A9A3FB4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CEE7D186E43EA52348F18B208BECE5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA3D9709ADF064C7D400B0C8307B460F /* Alamofire.framework in Frameworks */,
+				AF99BDFE1BB86B0A3893DDE90456B736 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,15 +169,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E282BBC81354649535B96E0FE96FC00F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EFA01DC497A505C3F1DFC89C1192FF79 /* Alamofire.framework in Frameworks */,
-				40F994F82DBF14345AD7308117F9C49F /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -178,18 +180,6 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		137882C5EB9B504B812D14F601EDBDF8 /* IoTMakerSdk */ = {
-			isa = PBXGroup;
-			children = (
-				183D128725F7CC8800139C8F /* Constants.swift */,
-				183D128625F7CC8800139C8F /* IoTMakerSdk.swift */,
-				FC538F0BB98BE006D88F34E09151FE2B /* Pod */,
-				D620669F1958FF4410E693789CF28709 /* Support Files */,
-			);
-			name = IoTMakerSdk;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		2F2A6FCCD7293377A61DF5D10894ACF2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -197,6 +187,26 @@
 				107F7D19F05536C94E049F4FAFB4AB81 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		45756C233BE26292C6120B03C047C061 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4B5B77F95C8EC54320751020F95B74BD /* IoTMakerSdk */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		4B5B77F95C8EC54320751020F95B74BD /* IoTMakerSdk */ = {
+			isa = PBXGroup;
+			children = (
+				1133C98FFE948B9A85C6A822B351203F /* Constants.swift */,
+				2215336F65896BEF24B5BA28BF04947B /* IoTMakerSdk.swift */,
+				8EFADC689FDB8E18D7239B5F8D7AE1FE /* Pod */,
+				F7DCEFA24CBF2B8E024F062682E529A3 /* Support Files */,
+			);
+			name = IoTMakerSdk;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		72236C61B70C62FFEA15EC8A8A0337A9 /* Pods-IoTMakerSdk_Tests */ = {
@@ -215,6 +225,21 @@
 			path = "Target Support Files/Pods-IoTMakerSdk_Tests";
 			sourceTree = "<group>";
 		};
+		7D02D4600E8C814A4EF1D8C7FF8FA146 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5ED047C2109FD8C989F0D93F032AAA29 /* Alamofire.modulemap */,
+				0389D0AFC58E73A075F3F7740CE1D441 /* Alamofire-dummy.m */,
+				A31DDF318E3E03B4DEA2F1B4182A555D /* Alamofire-Info.plist */,
+				5FEB2726D8D5B1A0A657204329BCF4BD /* Alamofire-prefix.pch */,
+				FFE4C558583FF9884EBA9DDF1C6F0DCD /* Alamofire-umbrella.h */,
+				2C50F83F93296D01A5B9009365A2671D /* Alamofire.debug.xcconfig */,
+				0C96CDEC4805F115B4225E4EBFC020B7 /* Alamofire.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
 		7FAD52E3571505CDB43129DEC73942B1 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -224,10 +249,20 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		8EFADC689FDB8E18D7239B5F8D7AE1FE /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				2B15502FC9C9F6C3BB76D22B4D687934 /* IoTMakerSdk.podspec */,
+				DE61F113413988A07963D3B6DE6C8D47 /* LICENSE */,
+				11DB674AE44A647643C61955C10B4A25 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		90FDDC7F5D24472360CA259A8D40AE98 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				ABBD6121E62B33A53CF07892A75F2030 /* Alamofire */,
+				CC362FA3C7A87C2E5630BA06D8CB57BD /* Alamofire */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -249,45 +284,6 @@
 			path = "Target Support Files/Pods-IoTMakerSdk_Example";
 			sourceTree = "<group>";
 		};
-		ABBD6121E62B33A53CF07892A75F2030 /* Alamofire */ = {
-			isa = PBXGroup;
-			children = (
-				8D5A0E300C04A6DF88D620788FE38780 /* AFError.swift */,
-				1C15C076B531E2E7744C358418A0C0B5 /* Alamofire.swift */,
-				AFF7F7716086D54E6308EE52C8227B87 /* DispatchQueue+Alamofire.swift */,
-				BFCE3D7EDCA41F256D471B40BBFD3FCE /* MultipartFormData.swift */,
-				F5460AD0F6241621B45A17AB23A8E5B7 /* NetworkReachabilityManager.swift */,
-				B06639F7A76DB8A9D0D0E41CDD7A6684 /* Notifications.swift */,
-				0D01BA8472F25D39F718F71557EDC8DD /* ParameterEncoding.swift */,
-				9D59E1AD3CC394A93392FF3DC8CF2961 /* Request.swift */,
-				CCC6858C85690F7AFEA7F6542EE9A69A /* Response.swift */,
-				7B03859BDC36782899379E222720A297 /* ResponseSerialization.swift */,
-				DD807F155301ECA538A2C1C296E1186D /* Result.swift */,
-				C4453BE339B79900FDC53E34FE5589CB /* ServerTrustPolicy.swift */,
-				F640F61D5BEE8132009BAEAA65B587A4 /* SessionDelegate.swift */,
-				3D7E25E371731FAE44F46A9F392CB5D5 /* SessionManager.swift */,
-				75C759635F88377BD7E2DEDE04C23C62 /* TaskDelegate.swift */,
-				32DB5272AD01ECD0B09A86818A7754C4 /* Timeline.swift */,
-				33115EC2A5164913C68F8BD170389EEE /* Validation.swift */,
-				AF7B415123717356B5962744BF84BF62 /* Support Files */,
-			);
-			path = Alamofire;
-			sourceTree = "<group>";
-		};
-		AF7B415123717356B5962744BF84BF62 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				EB27A2E77D4BF8026A0521ACE7CAA134 /* Alamofire.modulemap */,
-				B913782641ED6BF1137F1E6D893BE5DF /* Alamofire-dummy.m */,
-				3C4603DBC98157F1F41223CB3D5B1F7F /* Alamofire-prefix.pch */,
-				C70D9E5408E6DB00FC6D07C959936AA4 /* Alamofire-umbrella.h */,
-				4C7821F168145E7805DA755D21E22E77 /* Alamofire.debug.xcconfig */,
-				6F6FEBFE9E0DD37630E1D07EE8345D2E /* Alamofire.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Alamofire";
-			sourceTree = "<group>";
-		};
 		C79304114E3AE458D96D4C46B3F648C6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -299,11 +295,36 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		CC362FA3C7A87C2E5630BA06D8CB57BD /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				E63F367F44FC87833A1792B541781BB7 /* AFError.swift */,
+				85FC5E8A366EFB3B0CF9816F6A90B258 /* Alamofire.swift */,
+				47D8FC88383C541917CFD5ADA31DD7AB /* DispatchQueue+Alamofire.swift */,
+				616062C81FDAB5C58156D8D00F0FC48D /* MultipartFormData.swift */,
+				7C36DA43AFF8C1CD3C666DACA78B91C2 /* NetworkReachabilityManager.swift */,
+				B86FC9B604FA843EF26A951C43C0CE8B /* Notifications.swift */,
+				F8D7A47A590ED08C21AB24503841C370 /* ParameterEncoding.swift */,
+				2EE101F8BE2F43D16C24A9874C79A94A /* Request.swift */,
+				B06A315E96FC5BCCAB1C5145D4BF1BCF /* Response.swift */,
+				AF15E9B6C2601FD9AD228CA2D657E44B /* ResponseSerialization.swift */,
+				F1DA11279AA1D6557BB10C9936E9B3A3 /* Result.swift */,
+				3D7B86CF47C1835EA00FE7A8B8D5CCC5 /* ServerTrustPolicy.swift */,
+				3EFB0C226D602EC371BECC5BD2CC9370 /* SessionDelegate.swift */,
+				98D3F4F1011789493720361780A1982D /* SessionManager.swift */,
+				A50DCBCED5F02570DDA9386825ACB4CF /* TaskDelegate.swift */,
+				58ACD677FD4B95B260E1B1C656D08B84 /* Timeline.swift */,
+				DF3AE0D4172A0ECD56EBFA08991A7C70 /* Validation.swift */,
+				7D02D4600E8C814A4EF1D8C7FF8FA146 /* Support Files */,
+			);
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D47B811B4DCCAFAA90B9C6C48E8232C7 /* Development Pods */,
+				45756C233BE26292C6120B03C047C061 /* Development Pods */,
 				2F2A6FCCD7293377A61DF5D10894ACF2 /* Frameworks */,
 				90FDDC7F5D24472360CA259A8D40AE98 /* Pods */,
 				C79304114E3AE458D96D4C46B3F648C6 /* Products */,
@@ -311,36 +332,19 @@
 			);
 			sourceTree = "<group>";
 		};
-		D47B811B4DCCAFAA90B9C6C48E8232C7 /* Development Pods */ = {
+		F7DCEFA24CBF2B8E024F062682E529A3 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				137882C5EB9B504B812D14F601EDBDF8 /* IoTMakerSdk */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		D620669F1958FF4410E693789CF28709 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				EF09D7A60A1AC517F5C1828ADFCC9709 /* IoTMakerSdk.modulemap */,
-				09C347F6EE65187102197F57664882AF /* IoTMakerSdk-dummy.m */,
-				B9223CDD39F2A5421F2D1775CAFB305E /* IoTMakerSdk-prefix.pch */,
-				C5463B2315D0BD5B639F458C26ABE6B5 /* IoTMakerSdk-umbrella.h */,
-				8A27989C220A5A0714CA25C1F9B00CB9 /* IoTMakerSdk.debug.xcconfig */,
-				FAB170F8BA682AB8F1354C3696A271C8 /* IoTMakerSdk.release.xcconfig */,
+				B422EE1E54B1935CBCD5A7395DD242DB /* IoTMakerSdk.modulemap */,
+				A35F30A67C5F8E70258E0F097105756E /* IoTMakerSdk-dummy.m */,
+				AF49197E4BE9C5214D3C174F77041CE6 /* IoTMakerSdk-Info.plist */,
+				13BECB99E2AB2090C13FA00E1ACB231F /* IoTMakerSdk-prefix.pch */,
+				D02BD9AA9C2D84D15554D3084836DA41 /* IoTMakerSdk-umbrella.h */,
+				60B04956D47CB03F4D157B0403FB2E04 /* IoTMakerSdk.debug.xcconfig */,
+				DBF26C844B7C3BD178C92AC795DC00DA /* IoTMakerSdk.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/IoTMakerSdk";
-			sourceTree = "<group>";
-		};
-		FC538F0BB98BE006D88F34E09151FE2B /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				31D9E74552BD48410427400C28E2346A /* IoTMakerSdk.podspec */,
-				2A88F1CE3D1762C5FE42FD38F9257CA2 /* LICENSE */,
-				5ED0D9EE3A653A4ADDFDC17CFD6276F0 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -354,19 +358,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		65DD7DA771FA30986716257F913E926E /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0071A01687A661B8A66FEB1B917E5CCF /* IoTMakerSdk-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B26C340B05B7108CD112341BD425BF8A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0B9D0BD0BD8A7228F9C1CD4712158A1C /* Pods-IoTMakerSdk_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E982E9C63378D280877FED25ECAE6CDB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BB08E267CBC9B12BA7CAD2D227E0438 /* IoTMakerSdk-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,17 +387,17 @@
 /* Begin PBXNativeTarget section */
 		04F85A57986BF9571DF6D4EDE9975802 /* IoTMakerSdk */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B1F3741B8D4CFCCC0A6A25341DFB98CE /* Build configuration list for PBXNativeTarget "IoTMakerSdk" */;
+			buildConfigurationList = BE19A36A112E0F577A56993297260346 /* Build configuration list for PBXNativeTarget "IoTMakerSdk" */;
 			buildPhases = (
-				65DD7DA771FA30986716257F913E926E /* Headers */,
-				C257C4368C2DCA7BF6604BEB0CA53075 /* Sources */,
-				E282BBC81354649535B96E0FE96FC00F /* Frameworks */,
-				9603FC62DE8E132D0A4F5D3C1D346157 /* Resources */,
+				E982E9C63378D280877FED25ECAE6CDB /* Headers */,
+				EBAE5090F939FF5C65D622465FABD942 /* Sources */,
+				0CEE7D186E43EA52348F18B208BECE5B /* Frameworks */,
+				FA63F66AFD2CFCD3245B36C1DB141FE4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7953EBC51A491E2076F486BFA266A8B8 /* PBXTargetDependency */,
+				52CED43C77476692891EA283CBD31F1F /* PBXTargetDependency */,
 			);
 			name = IoTMakerSdk;
 			productName = IoTMakerSdk;
@@ -412,7 +416,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				7EB7A2685FA80019B84F976747551FE1 /* PBXTargetDependency */,
+				0BE558044EC2D252C5CD6D35E7EBF0D9 /* PBXTargetDependency */,
 			);
 			name = "Pods-IoTMakerSdk_Tests";
 			productName = "Pods-IoTMakerSdk_Tests";
@@ -431,8 +435,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				2780B05526C0B335FC97662D71BEEA84 /* PBXTargetDependency */,
-				21FF29B26AAB86005EF06CDE3DF37D86 /* PBXTargetDependency */,
+				9B5819DB7DC9B19094A3516AEF0EA646 /* PBXTargetDependency */,
+				266CF1DA76C32139C95E5C7626B56D2D /* PBXTargetDependency */,
 			);
 			name = "Pods-IoTMakerSdk_Example";
 			productName = "Pods-IoTMakerSdk_Example";
@@ -465,11 +469,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
-				TargetAttributes = {
-					04F85A57986BF9571DF6D4EDE9975802 = {
-						LastSwiftMigration = 1230;
-					};
-				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -507,14 +506,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9603FC62DE8E132D0A4F5D3C1D346157 /* Resources */ = {
+		E1BAEA9E1B4CFA312B346F7700742495 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E1BAEA9E1B4CFA312B346F7700742495 /* Resources */ = {
+		FA63F66AFD2CFCD3245B36C1DB141FE4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -565,42 +564,42 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C257C4368C2DCA7BF6604BEB0CA53075 /* Sources */ = {
+		EBAE5090F939FF5C65D622465FABD942 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				183D128825F7CC8900139C8F /* IoTMakerSdk.swift in Sources */,
-				D3EC2725AB2AEFA08E5DF26D9AF0CD0F /* IoTMakerSdk-dummy.m in Sources */,
-				183D128925F7CC8900139C8F /* Constants.swift in Sources */,
+				65B472B5702319C3E0C3DC0ABAF012B8 /* Constants.swift in Sources */,
+				7E47E88DC19EE7059E526A9B9DE29B15 /* IoTMakerSdk-dummy.m in Sources */,
+				D30B8A48ECE4AD7290612D42C311ACE2 /* IoTMakerSdk.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		21FF29B26AAB86005EF06CDE3DF37D86 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = IoTMakerSdk;
-			target = 04F85A57986BF9571DF6D4EDE9975802 /* IoTMakerSdk */;
-			targetProxy = BF77EC95201ADE74C8C6036AF4775240 /* PBXContainerItemProxy */;
-		};
-		2780B05526C0B335FC97662D71BEEA84 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Alamofire;
-			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
-			targetProxy = 2BB37392D4BAB5BAD45200FAAA6FE5B8 /* PBXContainerItemProxy */;
-		};
-		7953EBC51A491E2076F486BFA266A8B8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Alamofire;
-			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
-			targetProxy = 0292A8922B2202940C8D5346D910EABD /* PBXContainerItemProxy */;
-		};
-		7EB7A2685FA80019B84F976747551FE1 /* PBXTargetDependency */ = {
+		0BE558044EC2D252C5CD6D35E7EBF0D9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-IoTMakerSdk_Example";
 			target = C39D8A9E03627AB5E965A45F682079E7 /* Pods-IoTMakerSdk_Example */;
-			targetProxy = 0C28DF3FCB5A7DA8FE3312F7957E3C4A /* PBXContainerItemProxy */;
+			targetProxy = 279FF4B7E8A94AF6D0FECCFC60DC4F59 /* PBXContainerItemProxy */;
+		};
+		266CF1DA76C32139C95E5C7626B56D2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IoTMakerSdk;
+			target = 04F85A57986BF9571DF6D4EDE9975802 /* IoTMakerSdk */;
+			targetProxy = B6591CC0DCFC49A9243696B1EE8C574D /* PBXContainerItemProxy */;
+		};
+		52CED43C77476692891EA283CBD31F1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
+			targetProxy = BAA7A5E1F5395658D5AC613F4DD0CAF2 /* PBXContainerItemProxy */;
+		};
+		9B5819DB7DC9B19094A3516AEF0EA646 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
+			targetProxy = AA9F5DA3CFAF9A37FAB13F9959225A12 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -674,12 +673,11 @@
 			};
 			name = Release;
 		};
-		42F6AD0F709F95FC6289F85F4F52FD06 /* Debug */ = {
+		29CEDF022D2E6786A2606DB3956D5A3E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8A27989C220A5A0714CA25C1F9B00CB9 /* IoTMakerSdk.debug.xcconfig */;
+			baseConfigurationReference = 60B04956D47CB03F4D157B0403FB2E04 /* IoTMakerSdk.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -690,6 +688,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/IoTMakerSdk/IoTMakerSdk-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IoTMakerSdk/IoTMakerSdk-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -699,13 +698,75 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		2BD619FC8C06BE277275BE7F6CDD1EE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C50F83F93296D01A5B9009365A2671D /* Alamofire.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		43337A56EEBDE28F5A49C086028AACAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C96CDEC4805F115B4225E4EBFC020B7 /* Alamofire.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		78B20C541633342A372F9506FB5D22FA /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -799,6 +860,39 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		92D2A89FC731C6CE0FAB8E5C5E94AC2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBF26C844B7C3BD178C92AC795DC00DA /* IoTMakerSdk.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IoTMakerSdk/IoTMakerSdk-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IoTMakerSdk/IoTMakerSdk-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IoTMakerSdk/IoTMakerSdk.modulemap";
+				PRODUCT_MODULE_NAME = IoTMakerSdk;
+				PRODUCT_NAME = IoTMakerSdk;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -903,100 +997,6 @@
 			};
 			name = Debug;
 		};
-		B8DCB0F5737863A27D2BB3093726DFA3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FAB170F8BA682AB8F1354C3696A271C8 /* IoTMakerSdk.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/IoTMakerSdk/IoTMakerSdk-prefix.pch";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/IoTMakerSdk/IoTMakerSdk.modulemap";
-				PRODUCT_MODULE_NAME = IoTMakerSdk;
-				PRODUCT_NAME = IoTMakerSdk;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		C0E89E65DFA2D64E430E49A035D27E72 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6F6FEBFE9E0DD37630E1D07EE8345D2E /* Alamofire.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
-				PRODUCT_MODULE_NAME = Alamofire;
-				PRODUCT_NAME = Alamofire;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.1;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E9F70B9FD75C820FC69C387F0E742F13 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4C7821F168145E7805DA755D21E22E77 /* Alamofire.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
-				PRODUCT_MODULE_NAME = Alamofire;
-				PRODUCT_NAME = Alamofire;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.1;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1018,11 +1018,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B1F3741B8D4CFCCC0A6A25341DFB98CE /* Build configuration list for PBXNativeTarget "IoTMakerSdk" */ = {
+		BE19A36A112E0F577A56993297260346 /* Build configuration list for PBXNativeTarget "IoTMakerSdk" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				42F6AD0F709F95FC6289F85F4F52FD06 /* Debug */,
-				B8DCB0F5737863A27D2BB3093726DFA3 /* Release */,
+				29CEDF022D2E6786A2606DB3956D5A3E /* Debug */,
+				92D2A89FC731C6CE0FAB8E5C5E94AC2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1030,8 +1030,8 @@
 		E4A5194ABAF7A4780609E0E581DA6B54 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E9F70B9FD75C820FC69C387F0E742F13 /* Debug */,
-				C0E89E65DFA2D64E430E49A035D27E72 /* Release */,
+				2BD619FC8C06BE277275BE7F6CDD1EE5 /* Debug */,
+				43337A56EEBDE28F5A49C086028AACAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

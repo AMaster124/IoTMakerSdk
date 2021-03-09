@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  IoTMakerSdk
 //
-//  Created by AMaster124 on 03/09/2021.
+//  Created by AMaster124 on 03/10/2021.
 //  Copyright (c) 2021 AMaster124. All rights reserved.
 //
 
@@ -17,7 +17,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        
         IoTMakerSdk.configure(isPublic: false)
         return true
     }

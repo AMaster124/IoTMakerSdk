@@ -1,6 +1,6 @@
 {
   "name": "IoTMakerSdk",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "IoTMakerSdk is a library to support iOS app that manages IoT devices.",
   "homepage": "https://github.com/AMaster124/IoTMakerSdk",
   "license": {
@@ -12,7 +12,7 @@
   },
   "source": {
     "git": "https://github.com/AMaster124/IoTMakerSdk.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "swift_versions": "5.0",
   "platforms": {

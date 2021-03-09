@@ -1,6 +1,6 @@
 PODS:
   - Alamofire (4.9.1)
-  - IoTMakerSdk (0.1.0):
+  - IoTMakerSdk (0.1.1):
     - Alamofire (~> 4.9)
 
 DEPENDENCIES:
@@ -16,7 +16,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
-  IoTMakerSdk: 661db93db87f528a031619494d704586f33aa078
+  IoTMakerSdk: 420952a1a5cb83a714ca1189985bae0eb51bb89c
 
 PODFILE CHECKSUM: 434a659d487242ccb9e5a269c82421f2211b5f9d
 

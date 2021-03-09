@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'IoTMakerSdk'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'IoTMakerSdk is a library to support iOS app that manages IoT devices.'
 
 # This description is used to generate tags and improve search results.
