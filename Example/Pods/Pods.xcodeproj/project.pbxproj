@@ -38,24 +38,24 @@
 
 /* Begin PBXFileReference section */
 		09C347F6EE65187102197F57664882AF /* IoTMakerSdk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IoTMakerSdk-dummy.m"; sourceTree = "<group>"; };
-		0A8B010192E0384F45FE82D23FE26580 /* Pods_IoTMakerSdk_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_IoTMakerSdk_Tests.framework; path = "Pods-IoTMakerSdk_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A8B010192E0384F45FE82D23FE26580 /* Pods_IoTMakerSdk_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IoTMakerSdk_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D3180E844D97A4E1FB580FE3947B3CC /* Pods-IoTMakerSdk_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IoTMakerSdk_Example-frameworks.sh"; sourceTree = "<group>"; };
-		2A88F1CE3D1762C5FE42FD38F9257CA2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		2A88F1CE3D1762C5FE42FD38F9257CA2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		2BDA0C59C609853E816EEF9C450B54BA /* Pods-IoTMakerSdk_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IoTMakerSdk_Tests-Info.plist"; sourceTree = "<group>"; };
 		2FEF8BA6451DB4F1537DC532D6FA1FD2 /* Pods-IoTMakerSdk_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IoTMakerSdk_Example-dummy.m"; sourceTree = "<group>"; };
-		31D9E74552BD48410427400C28E2346A /* IoTMakerSdk.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = IoTMakerSdk.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		31D9E74552BD48410427400C28E2346A /* IoTMakerSdk.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = IoTMakerSdk.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3583B4A6325AB48E6A91231164AF732D /* Pods-IoTMakerSdk_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IoTMakerSdk_Example-Info.plist"; sourceTree = "<group>"; };
 		44652ADC2B9E5495F202331C70EDC515 /* Pods-IoTMakerSdk_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IoTMakerSdk_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		5ED0D9EE3A653A4ADDFDC17CFD6276F0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5ED0D9EE3A653A4ADDFDC17CFD6276F0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		647A65AC49FB4FE0A4F85F7E1D30CB5A /* Pods-IoTMakerSdk_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IoTMakerSdk_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6BF4917938964AB68385BB7EC3A2AD53 /* Pods-IoTMakerSdk_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IoTMakerSdk_Tests-dummy.m"; sourceTree = "<group>"; };
 		72F1EED1A356DDCE4753264375E99137 /* Pods-IoTMakerSdk_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IoTMakerSdk_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		779732F53F89A16A2D64431BDF27FE51 /* Pods-IoTMakerSdk_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IoTMakerSdk_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		86D9EB3C40D652DF61AAD339E878B1D0 /* IoTMakerSdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IoTMakerSdk.framework; path = IoTMakerSdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86D9EB3C40D652DF61AAD339E878B1D0 /* IoTMakerSdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IoTMakerSdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A27989C220A5A0714CA25C1F9B00CB9 /* IoTMakerSdk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IoTMakerSdk.debug.xcconfig; sourceTree = "<group>"; };
 		908FA22E573617E927A376695745458D /* Pods-IoTMakerSdk_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IoTMakerSdk_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A3D93D33E517819DFC842B44F4B73709 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = IoTMakerSdk/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		A63894325167C5E67B5D8466BEAC3481 /* Pods-IoTMakerSdk_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IoTMakerSdk_Example-umbrella.h"; sourceTree = "<group>"; };
 		AE65FB71EB5AC8C31C8F58E70FFB2B1E /* Pods-IoTMakerSdk_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IoTMakerSdk_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -65,7 +65,7 @@
 		C5463B2315D0BD5B639F458C26ABE6B5 /* IoTMakerSdk-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IoTMakerSdk-umbrella.h"; sourceTree = "<group>"; };
 		D107AC9613AE4DBE616E05547949EB94 /* Pods-IoTMakerSdk_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IoTMakerSdk_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		D64B3B6FF66163D677C9D5F69FAA23E6 /* Pods-IoTMakerSdk_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-IoTMakerSdk_Example.modulemap"; sourceTree = "<group>"; };
-		E6531D59280729FE8BDEC4C026AF0F72 /* Pods_IoTMakerSdk_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_IoTMakerSdk_Example.framework; path = "Pods-IoTMakerSdk_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6531D59280729FE8BDEC4C026AF0F72 /* Pods_IoTMakerSdk_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IoTMakerSdk_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF09D7A60A1AC517F5C1828ADFCC9709 /* IoTMakerSdk.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IoTMakerSdk.modulemap; sourceTree = "<group>"; };
 		F21BF174046BF453AF6CA34643487C54 /* Pods-IoTMakerSdk_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-IoTMakerSdk_Tests.modulemap"; sourceTree = "<group>"; };
 		FAB170F8BA682AB8F1354C3696A271C8 /* IoTMakerSdk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IoTMakerSdk.release.xcconfig; sourceTree = "<group>"; };
@@ -419,7 +419,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-IoTMakerSdk_Example/Pods-IoTMakerSdk_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-IoTMakerSdk_Example/Pods-IoTMakerSdk_Example.modulemap";
@@ -489,7 +489,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -516,7 +516,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/IoTMakerSdk/IoTMakerSdk-prefix.pch";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/IoTMakerSdk/IoTMakerSdk.modulemap";
 				PRODUCT_MODULE_NAME = IoTMakerSdk;
@@ -547,7 +547,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-IoTMakerSdk_Tests/Pods-IoTMakerSdk_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-IoTMakerSdk_Tests/Pods-IoTMakerSdk_Tests.modulemap";
@@ -578,7 +578,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/IoTMakerSdk/IoTMakerSdk-prefix.pch";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/IoTMakerSdk/IoTMakerSdk.modulemap";
 				PRODUCT_MODULE_NAME = IoTMakerSdk;
@@ -608,7 +608,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-IoTMakerSdk_Example/Pods-IoTMakerSdk_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-IoTMakerSdk_Example/Pods-IoTMakerSdk_Example.modulemap";
@@ -641,7 +641,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-IoTMakerSdk_Tests/Pods-IoTMakerSdk_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-IoTMakerSdk_Tests/Pods-IoTMakerSdk_Tests.modulemap";
@@ -709,13 +709,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
