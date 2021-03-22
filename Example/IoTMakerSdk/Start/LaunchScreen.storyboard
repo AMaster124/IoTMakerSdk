@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="NotoSansKR-Medium.otf">
+            <string>NotoSansKR-Medium</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ub6-g9-EtN">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="i7i-s6-b2F">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lamp" translatesAutoresizingMaskIntoConstraints="NO" id="nGo-Wk-arO">
+                                <rect key="frame" x="30.5" y="44" width="353" height="353"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="nGo-Wk-arO" secondAttribute="height" multiplier="1:1" id="FcQ-lR-YoU"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GERI 2021" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="NJ8-o3-sYB">
+                                <rect key="frame" x="173.5" y="811.5" width="67" height="20.5"/>
+                                <fontDescription key="fontDescription" name="NotoSansKR-Medium" family="Noto Sans KR" pointSize="14"/>
+                                <color key="textColor" red="0.78039215689999997" green="0.75294117650000003" blue="0.71764705880000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Ned-lv-AEv"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="i7i-s6-b2F" firstAttribute="top" secondItem="ub6-g9-EtN" secondAttribute="top" id="3pT-DG-gt3"/>
+                            <constraint firstItem="i7i-s6-b2F" firstAttribute="leading" secondItem="Ned-lv-AEv" secondAttribute="leading" id="ING-mj-Hwf"/>
+                            <constraint firstItem="nGo-Wk-arO" firstAttribute="height" secondItem="ub6-g9-EtN" secondAttribute="height" multiplier="320:812" id="Mux-3F-RlC"/>
+                            <constraint firstItem="nGo-Wk-arO" firstAttribute="top" secondItem="Ned-lv-AEv" secondAttribute="top" id="NDK-a9-o35"/>
+                            <constraint firstItem="nGo-Wk-arO" firstAttribute="centerX" secondItem="ub6-g9-EtN" secondAttribute="centerX" id="b0I-J9-TM6"/>
+                            <constraint firstAttribute="bottom" secondItem="i7i-s6-b2F" secondAttribute="bottom" id="g4m-o4-EXZ"/>
+                            <constraint firstItem="Ned-lv-AEv" firstAttribute="bottom" secondItem="NJ8-o3-sYB" secondAttribute="bottom" constant="30" id="lZo-6s-niD"/>
+                            <constraint firstItem="Ned-lv-AEv" firstAttribute="trailing" secondItem="i7i-s6-b2F" secondAttribute="trailing" id="qun-Bv-NSM"/>
+                            <constraint firstItem="NJ8-o3-sYB" firstAttribute="centerX" secondItem="ub6-g9-EtN" secondAttribute="centerX" id="zeU-i2-lps"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bg" width="750" height="1624"/>
+        <image name="lamp" width="420" height="612"/>
+    </resources>
+</document>

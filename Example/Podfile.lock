@@ -1,14 +1,22 @@
 PODS:
   - Alamofire (4.9.1)
+  - ExpyTableView (1.2.1)
   - IoTMakerSdk (0.1.1):
     - Alamofire (~> 4.9)
+  - SDWebImage (5.10.4):
+    - SDWebImage/Core (= 5.10.4)
+  - SDWebImage/Core (5.10.4)
 
 DEPENDENCIES:
+  - ExpyTableView
   - IoTMakerSdk (from `../`)
+  - SDWebImage
 
 SPEC REPOS:
   trunk:
     - Alamofire
+    - ExpyTableView
+    - SDWebImage
 
 EXTERNAL SOURCES:
   IoTMakerSdk:
@@ -16,8 +24,10 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  ExpyTableView: 19cf224c2ff04b1ec215ec52bc4ba6f81fa809ed
   IoTMakerSdk: 420952a1a5cb83a714ca1189985bae0eb51bb89c
+  SDWebImage: c666b97e1fa9c64b4909816a903322018f0a9c84
 
-PODFILE CHECKSUM: 434a659d487242ccb9e5a269c82421f2211b5f9d
+PODFILE CHECKSUM: 073d59258a3ff725b9deea4d5f8d8ffb10e92ef6
 
 COCOAPODS: 1.10.1

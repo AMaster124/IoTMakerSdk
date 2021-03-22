@@ -7,12 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		184BD1A9260220340070CEA2 /* LineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184BD1A8260220340070CEA2 /* LineChart.swift */; };
+		189333EA2600AE8100222048 /* DeviceControlComboVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189333E92600AE8100222048 /* DeviceControlComboVC.swift */; };
+		189333F22600B1AD00222048 /* DeviceControlRadioVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189333F12600B1AD00222048 /* DeviceControlRadioVC.swift */; };
+		189333FA2600BA0400222048 /* DeviceCollectVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189333F92600BA0400222048 /* DeviceCollectVC.swift */; };
+		189F1D7F25F8CD6B00C41C69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189F1D7625F8CD6800C41C69 /* Assets.xcassets */; };
+		189F1D8025F8CD6B00C41C69 /* NotoSansKR-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 189F1D7925F8CD6800C41C69 /* NotoSansKR-Light.otf */; };
+		189F1D8125F8CD6B00C41C69 /* NotoSansKR-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 189F1D7A25F8CD6800C41C69 /* NotoSansKR-Bold.otf */; };
+		189F1D8225F8CD6B00C41C69 /* NotoSansKR-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 189F1D7B25F8CD6800C41C69 /* NotoSansKR-Thin.otf */; };
+		189F1D8325F8CD6B00C41C69 /* NotoSansKR-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 189F1D7C25F8CD6800C41C69 /* NotoSansKR-Black.otf */; };
+		189F1D8425F8CD6B00C41C69 /* NotoSansKR-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 189F1D7D25F8CD6900C41C69 /* NotoSansKR-Medium.otf */; };
+		189F1D8525F8CD6B00C41C69 /* NotoSansKR-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 189F1D7E25F8CD6900C41C69 /* NotoSansKR-Regular.otf */; };
+		189F1D8C25F8CD8000C41C69 /* My.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189F1D8925F8CD7F00C41C69 /* My.storyboard */; };
+		189F1D8D25F8CD8000C41C69 /* MyPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189F1D8A25F8CD7F00C41C69 /* MyPickerVC.swift */; };
+		189F1D8E25F8CD8000C41C69 /* MyAlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189F1D8B25F8CD7F00C41C69 /* MyAlertVC.swift */; };
+		189F1D9425F8CD9C00C41C69 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189F1D9225F8CD9B00C41C69 /* Global.swift */; };
+		189F1D9525F8CD9C00C41C69 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189F1D9325F8CD9B00C41C69 /* Extension.swift */; };
+		189F1DA725F8CDEA00C41C69 /* GroupManageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189F1D9B25F8CDEA00C41C69 /* GroupManageVC.swift */; };
+		189F1DA825F8CDEA00C41C69 /* GroupAddVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189F1D9C25F8CDEA00C41C69 /* GroupAddVC.swift */; };
+		189F1DA925F8CDEA00C41C69 /* DeviceNameSettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189F1D9D25F8CDEA00C41C69 /* DeviceNameSettingVC.swift */; };
+		189F1DAA25F8CDEA00C41C69 /* EventLogVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189F1D9E25F8CDEA00C41C69 /* EventLogVC.swift */; };
+		189F1DAB25F8CDEA00C41C69 /* GroupOrderSettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189F1D9F25F8CDEA00C41C69 /* GroupOrderSettingVC.swift */; };
+		189F1DAC25F8CDEA00C41C69 /* TermsAndServiceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189F1DA025F8CDEA00C41C69 /* TermsAndServiceVC.swift */; };
+		189F1DAD25F8CDEA00C41C69 /* DeviceIconSettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189F1DA125F8CDEA00C41C69 /* DeviceIconSettingVC.swift */; };
+		189F1DAE25F8CDEA00C41C69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189F1DA225F8CDEA00C41C69 /* Main.storyboard */; };
+		189F1DAF25F8CDEA00C41C69 /* DeviceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189F1DA325F8CDEA00C41C69 /* DeviceVC.swift */; };
+		189F1DB025F8CDEA00C41C69 /* GroupInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189F1DA425F8CDEA00C41C69 /* GroupInfoVC.swift */; };
+		189F1DB125F8CDEA00C41C69 /* GuideVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189F1DA525F8CDEA00C41C69 /* GuideVC.swift */; };
+		189F1DB225F8CDEA00C41C69 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189F1DA625F8CDEA00C41C69 /* MainVC.swift */; };
+		189F1DBA25F8CE2900C41C69 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189F1DB825F8CE2900C41C69 /* LoginVC.swift */; };
+		189F1DBB25F8CE2900C41C69 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189F1DB925F8CE2900C41C69 /* Login.storyboard */; };
+		189F1DCC25F8CEFD00C41C69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189F1DCA25F8CEFD00C41C69 /* LaunchScreen.storyboard */; };
+		189F1DCD25F8CEFD00C41C69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189F1DCB25F8CEFD00C41C69 /* AppDelegate.swift */; };
+		189F1DDE25F8D74D00C41C69 /* MyLoadingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189F1DDD25F8D74D00C41C69 /* MyLoadingVC.swift */; };
+		18D9EE6725FF472A00CC2883 /* DeviceControlStringVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D9EE6625FF472A00CC2883 /* DeviceControlStringVC.swift */; };
+		18D9EE6D25FF72D000CC2883 /* DeviceControlButtonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D9EE6C25FF72D000CC2883 /* DeviceControlButtonVC.swift */; };
+		18D9EE7B25FFC72B00CC2883 /* DeviceControlSwitchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D9EE7A25FFC72B00CC2883 /* DeviceControlSwitchVC.swift */; };
+		18D9EE8125FFCD9F00CC2883 /* DeviceControlToggleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D9EE8025FFCD9F00CC2883 /* DeviceControlToggleVC.swift */; };
+		18D9EE8725FFCE0F00CC2883 /* DeviceControlBaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D9EE8625FFCE0F00CC2883 /* DeviceControlBaseVC.swift */; };
+		18D9EEB825FFD15A00CC2883 /* MySliderV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D9EEB725FFD15A00CC2883 /* MySliderV.swift */; };
+		18D9EEBC25FFD44300CC2883 /* DeviceControlSliderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D9EEBB25FFD44300CC2883 /* DeviceControlSliderVC.swift */; };
+		18D9EECA25FFDD0A00CC2883 /* MyCircleProgressV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D9EEC925FFDD0A00CC2883 /* MyCircleProgressV.swift */; };
+		18D9EEE025FFE28600CC2883 /* DeviceControlCircleSliderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D9EEDF25FFE28600CC2883 /* DeviceControlCircleSliderVC.swift */; };
 		4868EE9D752359C0E8D90BA7 /* Pods_IoTMakerSdk_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A087BAAA8A8D3DAD51A2AB02 /* Pods_IoTMakerSdk_Tests.framework */; };
-		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
-		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
-		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
-		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		D8D2D1098C6D520F4914CA40 /* Pods_IoTMakerSdk_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCFB30BB541CB01E596AF938 /* Pods_IoTMakerSdk_Example.framework */; };
 /* End PBXBuildFile section */
@@ -28,15 +65,52 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		184BD1A8260220340070CEA2 /* LineChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChart.swift; sourceTree = "<group>"; };
+		189333E92600AE8100222048 /* DeviceControlComboVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceControlComboVC.swift; sourceTree = "<group>"; };
+		189333F12600B1AD00222048 /* DeviceControlRadioVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceControlRadioVC.swift; sourceTree = "<group>"; };
+		189333F92600BA0400222048 /* DeviceCollectVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceCollectVC.swift; sourceTree = "<group>"; };
+		189F1D7625F8CD6800C41C69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		189F1D7925F8CD6800C41C69 /* NotoSansKR-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Light.otf"; sourceTree = "<group>"; };
+		189F1D7A25F8CD6800C41C69 /* NotoSansKR-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Bold.otf"; sourceTree = "<group>"; };
+		189F1D7B25F8CD6800C41C69 /* NotoSansKR-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Thin.otf"; sourceTree = "<group>"; };
+		189F1D7C25F8CD6800C41C69 /* NotoSansKR-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Black.otf"; sourceTree = "<group>"; };
+		189F1D7D25F8CD6900C41C69 /* NotoSansKR-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Medium.otf"; sourceTree = "<group>"; };
+		189F1D7E25F8CD6900C41C69 /* NotoSansKR-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Regular.otf"; sourceTree = "<group>"; };
+		189F1D8925F8CD7F00C41C69 /* My.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = My.storyboard; sourceTree = "<group>"; };
+		189F1D8A25F8CD7F00C41C69 /* MyPickerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPickerVC.swift; sourceTree = "<group>"; };
+		189F1D8B25F8CD7F00C41C69 /* MyAlertVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyAlertVC.swift; sourceTree = "<group>"; };
+		189F1D9225F8CD9B00C41C69 /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		189F1D9325F8CD9B00C41C69 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		189F1D9B25F8CDEA00C41C69 /* GroupManageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupManageVC.swift; sourceTree = "<group>"; };
+		189F1D9C25F8CDEA00C41C69 /* GroupAddVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupAddVC.swift; sourceTree = "<group>"; };
+		189F1D9D25F8CDEA00C41C69 /* DeviceNameSettingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceNameSettingVC.swift; sourceTree = "<group>"; };
+		189F1D9E25F8CDEA00C41C69 /* EventLogVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventLogVC.swift; sourceTree = "<group>"; };
+		189F1D9F25F8CDEA00C41C69 /* GroupOrderSettingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupOrderSettingVC.swift; sourceTree = "<group>"; };
+		189F1DA025F8CDEA00C41C69 /* TermsAndServiceVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsAndServiceVC.swift; sourceTree = "<group>"; };
+		189F1DA125F8CDEA00C41C69 /* DeviceIconSettingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceIconSettingVC.swift; sourceTree = "<group>"; };
+		189F1DA225F8CDEA00C41C69 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		189F1DA325F8CDEA00C41C69 /* DeviceVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceVC.swift; sourceTree = "<group>"; };
+		189F1DA425F8CDEA00C41C69 /* GroupInfoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupInfoVC.swift; sourceTree = "<group>"; };
+		189F1DA525F8CDEA00C41C69 /* GuideVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuideVC.swift; sourceTree = "<group>"; };
+		189F1DA625F8CDEA00C41C69 /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		189F1DB825F8CE2900C41C69 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		189F1DB925F8CE2900C41C69 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		189F1DCA25F8CEFD00C41C69 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		189F1DCB25F8CEFD00C41C69 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		189F1DDD25F8D74D00C41C69 /* MyLoadingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLoadingVC.swift; sourceTree = "<group>"; };
+		18D9EE6625FF472A00CC2883 /* DeviceControlStringVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceControlStringVC.swift; sourceTree = "<group>"; };
+		18D9EE6C25FF72D000CC2883 /* DeviceControlButtonVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceControlButtonVC.swift; sourceTree = "<group>"; };
+		18D9EE7A25FFC72B00CC2883 /* DeviceControlSwitchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceControlSwitchVC.swift; sourceTree = "<group>"; };
+		18D9EE8025FFCD9F00CC2883 /* DeviceControlToggleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceControlToggleVC.swift; sourceTree = "<group>"; };
+		18D9EE8625FFCE0F00CC2883 /* DeviceControlBaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceControlBaseVC.swift; sourceTree = "<group>"; };
+		18D9EEB725FFD15A00CC2883 /* MySliderV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySliderV.swift; sourceTree = "<group>"; };
+		18D9EEBB25FFD44300CC2883 /* DeviceControlSliderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceControlSliderVC.swift; sourceTree = "<group>"; };
+		18D9EEC925FFDD0A00CC2883 /* MyCircleProgressV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCircleProgressV.swift; sourceTree = "<group>"; };
+		18D9EEDF25FFE28600CC2883 /* DeviceControlCircleSliderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceControlCircleSliderVC.swift; sourceTree = "<group>"; };
 		18F14AC012BEADD173883AC8 /* IoTMakerSdk.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = IoTMakerSdk.podspec; path = ../IoTMakerSdk.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5AE49AFF0B9C99C63BBBB5ED /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* IoTMakerSdk_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IoTMakerSdk_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* IoTMakerSdk_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IoTMakerSdk_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
@@ -69,6 +143,117 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		189F1D6D25F8CC7800C41C69 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				189F1DB725F8CE2900C41C69 /* Login */,
+				189F1D9A25F8CDEA00C41C69 /* Main */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		189F1D7525F8CD6800C41C69 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				189F1D7625F8CD6800C41C69 /* Assets.xcassets */,
+				189F1D7725F8CD6800C41C69 /* Fonts */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		189F1D7725F8CD6800C41C69 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				189F1D7825F8CD6800C41C69 /* Noto_Sans_KR */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		189F1D7825F8CD6800C41C69 /* Noto_Sans_KR */ = {
+			isa = PBXGroup;
+			children = (
+				189F1D7925F8CD6800C41C69 /* NotoSansKR-Light.otf */,
+				189F1D7A25F8CD6800C41C69 /* NotoSansKR-Bold.otf */,
+				189F1D7B25F8CD6800C41C69 /* NotoSansKR-Thin.otf */,
+				189F1D7C25F8CD6800C41C69 /* NotoSansKR-Black.otf */,
+				189F1D7D25F8CD6900C41C69 /* NotoSansKR-Medium.otf */,
+				189F1D7E25F8CD6900C41C69 /* NotoSansKR-Regular.otf */,
+			);
+			path = Noto_Sans_KR;
+			sourceTree = "<group>";
+		};
+		189F1D8825F8CD7F00C41C69 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				189F1D8925F8CD7F00C41C69 /* My.storyboard */,
+				189F1D8A25F8CD7F00C41C69 /* MyPickerVC.swift */,
+				189F1D8B25F8CD7F00C41C69 /* MyAlertVC.swift */,
+				189F1DDD25F8D74D00C41C69 /* MyLoadingVC.swift */,
+				18D9EEB725FFD15A00CC2883 /* MySliderV.swift */,
+				18D9EEC925FFDD0A00CC2883 /* MyCircleProgressV.swift */,
+				184BD1A8260220340070CEA2 /* LineChart.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		189F1D9125F8CD9B00C41C69 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				189F1D9225F8CD9B00C41C69 /* Global.swift */,
+				189F1D9325F8CD9B00C41C69 /* Extension.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		189F1D9A25F8CDEA00C41C69 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				189F1DA225F8CDEA00C41C69 /* Main.storyboard */,
+				189F1DA625F8CDEA00C41C69 /* MainVC.swift */,
+				189F1DA325F8CDEA00C41C69 /* DeviceVC.swift */,
+				189F1D9B25F8CDEA00C41C69 /* GroupManageVC.swift */,
+				189F1DA425F8CDEA00C41C69 /* GroupInfoVC.swift */,
+				189F1D9C25F8CDEA00C41C69 /* GroupAddVC.swift */,
+				189F1D9F25F8CDEA00C41C69 /* GroupOrderSettingVC.swift */,
+				189F1D9D25F8CDEA00C41C69 /* DeviceNameSettingVC.swift */,
+				189F1DA125F8CDEA00C41C69 /* DeviceIconSettingVC.swift */,
+				189333F92600BA0400222048 /* DeviceCollectVC.swift */,
+				18D9EE8625FFCE0F00CC2883 /* DeviceControlBaseVC.swift */,
+				18D9EE6625FF472A00CC2883 /* DeviceControlStringVC.swift */,
+				18D9EE6C25FF72D000CC2883 /* DeviceControlButtonVC.swift */,
+				18D9EE7A25FFC72B00CC2883 /* DeviceControlSwitchVC.swift */,
+				18D9EE8025FFCD9F00CC2883 /* DeviceControlToggleVC.swift */,
+				18D9EEBB25FFD44300CC2883 /* DeviceControlSliderVC.swift */,
+				18D9EEDF25FFE28600CC2883 /* DeviceControlCircleSliderVC.swift */,
+				189333E92600AE8100222048 /* DeviceControlComboVC.swift */,
+				189333F12600B1AD00222048 /* DeviceControlRadioVC.swift */,
+				189F1D9E25F8CDEA00C41C69 /* EventLogVC.swift */,
+				189F1DA525F8CDEA00C41C69 /* GuideVC.swift */,
+				189F1DA025F8CDEA00C41C69 /* TermsAndServiceVC.swift */,
+			);
+			name = Main;
+			path = ViewControllers/Main;
+			sourceTree = "<group>";
+		};
+		189F1DB725F8CE2900C41C69 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				189F1DB825F8CE2900C41C69 /* LoginVC.swift */,
+				189F1DB925F8CE2900C41C69 /* Login.storyboard */,
+			);
+			name = Login;
+			path = ViewControllers/Login;
+			sourceTree = "<group>";
+		};
+		189F1DC925F8CEFD00C41C69 /* Start */ = {
+			isa = PBXGroup;
+			children = (
+				189F1DCA25F8CEFD00C41C69 /* LaunchScreen.storyboard */,
+				189F1DCB25F8CEFD00C41C69 /* AppDelegate.swift */,
+			);
+			path = Start;
+			sourceTree = "<group>";
+		};
 		2A77709FB5C98D6C12C63263 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -102,11 +287,11 @@
 		607FACD21AFB9204008FA782 /* Example for IoTMakerSdk */ = {
 			isa = PBXGroup;
 			children = (
-				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				607FACD91AFB9204008FA782 /* Main.storyboard */,
-				607FACDC1AFB9204008FA782 /* Images.xcassets */,
-				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
+				189F1DC925F8CEFD00C41C69 /* Start */,
+				189F1D7525F8CD6800C41C69 /* Assets */,
+				189F1D8825F8CD7F00C41C69 /* Components */,
+				189F1D9125F8CD9B00C41C69 /* Utils */,
+				189F1D6D25F8CC7800C41C69 /* ViewControllers */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
 			name = "Example for IoTMakerSdk";
@@ -212,12 +397,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						DevelopmentTeam = 44YK55T298;
+						DevelopmentTeam = 6VXZH7S9JW;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						DevelopmentTeam = 44YK55T298;
+						DevelopmentTeam = 6VXZH7S9JW;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -248,9 +433,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
-				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
-				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				189F1D8225F8CD6B00C41C69 /* NotoSansKR-Thin.otf in Resources */,
+				189F1DAE25F8CDEA00C41C69 /* Main.storyboard in Resources */,
+				189F1D8525F8CD6B00C41C69 /* NotoSansKR-Regular.otf in Resources */,
+				189F1D7F25F8CD6B00C41C69 /* Assets.xcassets in Resources */,
+				189F1D8025F8CD6B00C41C69 /* NotoSansKR-Light.otf in Resources */,
+				189F1D8425F8CD6B00C41C69 /* NotoSansKR-Medium.otf in Resources */,
+				189F1D8325F8CD6B00C41C69 /* NotoSansKR-Black.otf in Resources */,
+				189F1D8C25F8CD8000C41C69 /* My.storyboard in Resources */,
+				189F1D8125F8CD6B00C41C69 /* NotoSansKR-Bold.otf in Resources */,
+				189F1DCC25F8CEFD00C41C69 /* LaunchScreen.storyboard in Resources */,
+				189F1DBB25F8CE2900C41C69 /* Login.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,12 +465,16 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-IoTMakerSdk_Example/Pods-IoTMakerSdk_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/ExpyTableView/ExpyTableView.framework",
 				"${BUILT_PRODUCTS_DIR}/IoTMakerSdk/IoTMakerSdk.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ExpyTableView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IoTMakerSdk.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -335,8 +532,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
-				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				189333F22600B1AD00222048 /* DeviceControlRadioVC.swift in Sources */,
+				18D9EE6D25FF72D000CC2883 /* DeviceControlButtonVC.swift in Sources */,
+				18D9EEB825FFD15A00CC2883 /* MySliderV.swift in Sources */,
+				189F1DAA25F8CDEA00C41C69 /* EventLogVC.swift in Sources */,
+				189F1DDE25F8D74D00C41C69 /* MyLoadingVC.swift in Sources */,
+				189F1DB225F8CDEA00C41C69 /* MainVC.swift in Sources */,
+				189F1DAB25F8CDEA00C41C69 /* GroupOrderSettingVC.swift in Sources */,
+				189F1DA925F8CDEA00C41C69 /* DeviceNameSettingVC.swift in Sources */,
+				189F1D8E25F8CD8000C41C69 /* MyAlertVC.swift in Sources */,
+				189F1DA825F8CDEA00C41C69 /* GroupAddVC.swift in Sources */,
+				189F1DAD25F8CDEA00C41C69 /* DeviceIconSettingVC.swift in Sources */,
+				184BD1A9260220340070CEA2 /* LineChart.swift in Sources */,
+				189F1DA725F8CDEA00C41C69 /* GroupManageVC.swift in Sources */,
+				18D9EE8125FFCD9F00CC2883 /* DeviceControlToggleVC.swift in Sources */,
+				189F1D9525F8CD9C00C41C69 /* Extension.swift in Sources */,
+				18D9EECA25FFDD0A00CC2883 /* MyCircleProgressV.swift in Sources */,
+				18D9EE7B25FFC72B00CC2883 /* DeviceControlSwitchVC.swift in Sources */,
+				18D9EEBC25FFD44300CC2883 /* DeviceControlSliderVC.swift in Sources */,
+				189F1DB025F8CDEA00C41C69 /* GroupInfoVC.swift in Sources */,
+				18D9EE8725FFCE0F00CC2883 /* DeviceControlBaseVC.swift in Sources */,
+				189F1D9425F8CD9C00C41C69 /* Global.swift in Sources */,
+				189F1DAC25F8CDEA00C41C69 /* TermsAndServiceVC.swift in Sources */,
+				189F1DBA25F8CE2900C41C69 /* LoginVC.swift in Sources */,
+				18D9EE6725FF472A00CC2883 /* DeviceControlStringVC.swift in Sources */,
+				189F1DAF25F8CDEA00C41C69 /* DeviceVC.swift in Sources */,
+				189F1D8D25F8CD8000C41C69 /* MyPickerVC.swift in Sources */,
+				189333EA2600AE8100222048 /* DeviceControlComboVC.swift in Sources */,
+				189F1DCD25F8CEFD00C41C69 /* AppDelegate.swift in Sources */,
+				189333FA2600BA0400222048 /* DeviceCollectVC.swift in Sources */,
+				189F1DB125F8CDEA00C41C69 /* GuideVC.swift in Sources */,
+				18D9EEE025FFE28600CC2883 /* DeviceControlCircleSliderVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,25 +583,6 @@
 			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				607FACDA1AFB9204008FA782 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		607FACDE1AFB9204008FA782 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				607FACDF1AFB9204008FA782 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		607FACED1AFB9204008FA782 /* Debug */ = {
@@ -482,14 +689,16 @@
 			baseConfigurationReference = 9E559412C5D1352F7BD48DB7 /* Pods-IoTMakerSdk_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 44YK55T298;
+				CURRENT_PROJECT_VERSION = 10;
+				DEVELOPMENT_TEAM = 6VXZH7S9JW;
 				INFOPLIST_FILE = IoTMakerSdk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = com.barunsoft.volumelistener;
+				PRODUCT_BUNDLE_IDENTIFIER = kt.gigaiot.demoapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -498,14 +707,16 @@
 			baseConfigurationReference = 8ED1619A9D53164A84626F51 /* Pods-IoTMakerSdk_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 44YK55T298;
+				CURRENT_PROJECT_VERSION = 10;
+				DEVELOPMENT_TEAM = 6VXZH7S9JW;
 				INFOPLIST_FILE = IoTMakerSdk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = com.barunsoft.volumelistener;
+				PRODUCT_BUNDLE_IDENTIFIER = kt.gigaiot.demoapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -513,7 +724,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7E6BDAFAB6BF2B77A97D1840 /* Pods-IoTMakerSdk_Tests.debug.xcconfig */;
 			buildSettings = {
-				DEVELOPMENT_TEAM = 44YK55T298;
+				DEVELOPMENT_TEAM = 6VXZH7S9JW;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -536,7 +747,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C4EC5E9C2E4C5967DF4CFAA7 /* Pods-IoTMakerSdk_Tests.release.xcconfig */;
 			buildSettings = {
-				DEVELOPMENT_TEAM = 44YK55T298;
+				DEVELOPMENT_TEAM = 6VXZH7S9JW;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
